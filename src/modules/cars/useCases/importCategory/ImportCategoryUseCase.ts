@@ -41,6 +41,7 @@ class ImportCategoryUseCase {
   async execute(file: Express.Multer.File): Promise<void> {
     const categories = await this.loadCategories(file);
 
+    // eslint-disable-next-line array-callback-return
     categories.map((category) => {
       const { name, description } = category;
 
