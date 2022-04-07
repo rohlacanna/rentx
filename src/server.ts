@@ -5,9 +5,10 @@ import swaggerUi from "swagger-ui-express";
 
 import "./database";
 
-import "./shared/container";
+import "@shared/container";
 
-import { AppErros } from "./errors/AppErrors";
+import { AppErros } from "@errors/AppErrors";
+
 import { router } from "./routes";
 import swaggerFile from "./swagger.json";
 
