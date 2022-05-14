@@ -3,9 +3,9 @@
 import { hash } from "bcrypt";
 import { inject, injectable } from "tsyringe";
 
-import { AppErros } from "@errors/AppErrors";
 import { ICreateUserDTO } from "@modules/accounts/dtos/ICreateUserDTO";
 import { IUsersRepository } from "@modules/accounts/repositories/IUsersRepository";
+import { AppErros } from "@shared/errors/AppErrors";
 
 
 @injectable()
