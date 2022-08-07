@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+
 import { inject, injectable } from "tsyringe";
 
 import { Rental } from "@modules/rentals/infra/typeorm/entities/Rental";
